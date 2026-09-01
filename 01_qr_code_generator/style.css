@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.container {
+    width: 350px;
+    padding: 30px;
+
+    background: white;
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #4c1d95;
+}
+
+p {
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+
+    font-size: 16px;
+    outline: none;
+
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border-color: #764ba2;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #5a67d8 0%, #6b3f9e 100%);
+}
+
+#qrContainer {
+    display: none;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px 0 20px;
+}
+
+#qrImage {
+    width: 200px;
+    height: 200px;
+}
+
+#downloadBtn {
+    display: none;
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+}
+
+#downloadBtn:hover {
+    background: linear-gradient(135deg, #0e7d73 0%, #2dd468 100%);
+}
